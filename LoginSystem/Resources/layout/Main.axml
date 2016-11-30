@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEDEDC"
+    android:weightSum="100">
+    <TextView
+        android:text="DZIENNIK ĆWICZEŃ"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height="0dp"
+        android:textColor="#368DEB"
+        android:id="@+id/txtCreateAccount"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <ImageView
+        android:src="@drawable/logo_projekt"
+        android:layout_width="match_parent"
+        android:layout_height="200.0dp"
+        android:id="@+id/imageView1" />
+    <Button
+        android:text="Zaloguj się"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:id="@+id/btnZaloguj"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@drawable/buttonsignupstyle" />
+    <TextView
+        android:text="lub"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:textColor="#000"
+        android:id="@+id/txtOr"
+        android:gravity="center" />
+    <Button
+        android:text="Zarejestruj się przez e-mail"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:background="@drawable/ButtonSignInStyle"
+        android:id="@+id/btnSignUp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/mail_icon" />
+    <TextView
+        android:text="@string/BartusZak"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0dp"
+        android:textColor="#000"
+        android:id="@+id/txtCopyright"
+        android:gravity="center"
+        android:textSize="20px"
+        android:layout_marginTop="50px" />
+    <TextView
+        android:text="www.bartuszak.pl"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0dp"
+        android:textColor="#000"
+        android:id="@+id/txtCopyright"
+        android:gravity="center"
+        android:textSize="20px" />
+</LinearLayout>
